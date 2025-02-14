@@ -1,0 +1,1 @@
+dotnet ef migrations add Init --startup-project ../WebApi/WebApi.csproj --project ../DataAccess/DataAccess.csproj
