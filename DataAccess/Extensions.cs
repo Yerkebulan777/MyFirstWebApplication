@@ -15,7 +15,7 @@ namespace DataAccess
         {
             services.AddDbContext<AppContext>(x =>
             {
-                x.UseNpgsql(connectionString: "Host=localhost; Database=NoteDb; Username=postgress; Password=12345");
+                x.UseNpgsql(connectionString: "Host=localhost; Database=NoteDb; Username=postgres; Password=12345");
             });
 
             return services;
