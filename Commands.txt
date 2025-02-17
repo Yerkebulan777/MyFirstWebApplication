@@ -1,3 +1,5 @@
 cd D:\REPOSITORY\MyFirstWebApplication
 dotnet ef migrations add Init --startup-project WebApi/WebApi.csproj --project DataAccess/DataAccess.csproj
 dotnet ef database update --startup-project WebApi/WebApi.csproj --project DataAccess/DataAccess.csproj
+
+port 5432 Password=12345
